@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+<body>
+    <form action ="process.php" method = "post">
+    <div>
+        <label>First Name</label>
+        <input type = 'text' name = "firstName" placeholder="Enter your firstname">
+    </div>
+    <br>
+    <div>
+        <label>Message</label>
+        <textarea name = "message" placeholder = "Enter your feedback"></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>
+        <select name = "gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>Age</label>
+        <input type = "number" name = 'age' value = "23">
+    </div>
+    <br>
+    <div>
+        <label>Birthday</label>
+        <input type = 'date' name = 'birthday'>
+    </div>
+    <br>
+    <input type="submit" name = "submit" value="Submit">
+    </form>
+</body>
+</html>
